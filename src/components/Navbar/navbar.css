@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+nav {
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  display: flex;
+  background: teal;
+  height: 80px;
+  justify-content: space-around;
+  align-items: center;
+  transition: all 1s ease;
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+.logo_container {
+  display: flex;
+  height: 75px;
+}
+
+.logo_container:hover{
+  animation: rotating 1.5s linear infinite;
+}
+
+.logo {
+  align-items: center;
+}
+
+.button_container {
+  width: 200px;
+}
+
+nav button {
+  padding: 20px;
+  border-radius: 20px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  width: 150px;
+}
+
+nav button:hover {
+  background: rgb(0, 191, 255);
+  font-size: 1.5rem;
+}
+
+.bar {
+  display: block;
+  background-color: white;
+  width: 30px;
+  height: 5px;
+  margin-bottom: 5px;
+  z-index: 999;
+}
+.menu{
+  background-color: transparent;
+}
+.menu-active{
+  background: lightblue;
+}
+.menu-active:hover{
+  background: lightblue;
+}
+
+@media screen and (max-width: 1200px) {
+  nav button {
+    width: auto;
+  }
+  .dropdown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: rgb(124, 192, 214);
+    background: rgba(124,192,214,0.8);
+    transition: 0.5s ease all
+  }
+  .button_container{
+    width: 50%;
+    align-items: center;
+    transform: translateX(25%);
+  }
+  nav button:hover{
+    font-size: 1.3rem;
+    background: rgba(124, 192, 214,0.2);
+  }
+}
