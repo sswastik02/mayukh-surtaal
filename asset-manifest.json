@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/mayukh-surtaal/static/css/main.0c74d25a.css",
+    "main.js": "/mayukh-surtaal/static/js/main.1505be8b.js",
+    "static/media/image2.png": "/mayukh-surtaal/static/media/image2.3bef2fcc005cb6646b50.png",
+    "static/media/image4.png": "/mayukh-surtaal/static/media/image4.62c9665ac51cbe8f19d8.png",
+    "static/media/course-pic.png": "/mayukh-surtaal/static/media/course-pic.4b6c7a61548a3a4e9042.png",
+    "static/media/image1.png": "/mayukh-surtaal/static/media/image1.abc5cefacd4e516ec40b.png",
+    "static/media/contact.jpg": "/mayukh-surtaal/static/media/contact.1e1a90406bc5aa42ef29.jpg",
+    "static/media/image3.png": "/mayukh-surtaal/static/media/image3.94e96330a20fe9d272b7.png",
+    "static/media/pic.jpg": "/mayukh-surtaal/static/media/pic.7d91126b53f4de51b3d2.jpg",
+    "static/media/logo.png": "/mayukh-surtaal/static/media/logo.0fef01f1f2b1c3230029.png",
+    "index.html": "/mayukh-surtaal/index.html",
+    "main.0c74d25a.css.map": "/mayukh-surtaal/static/css/main.0c74d25a.css.map",
+    "main.1505be8b.js.map": "/mayukh-surtaal/static/js/main.1505be8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c74d25a.css",
+    "static/js/main.1505be8b.js"
+  ]
+}
