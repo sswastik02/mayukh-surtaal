@@ -27,9 +27,12 @@ class Courses extends React.Component {
     "compositions ranging from the traditional Namaskar to the popular " +
     "Abhinaya.",
     
-    "semiclassical":
-    "semi- classical is not purely classical movements but a hint of Classical steps n movements that's Semi-classical"
-  }
+    "creative": 
+    "Creative Dance is a dance style that is Indian in origin and spirit, modern in presentation. This particular style has its roots deep in the spirit of India. " +
+    "The dances are choreographed based on movements derived from classical " +
+    "Indian dances like Odissi and kathak, blending with folk and natural movements– " +
+    "yet they are all creative, following the path shown by the legendary genius, Uday Shankar. "
+    }
 
   selectCourse = (course) => {
     this.setState({
@@ -46,7 +49,7 @@ class Courses extends React.Component {
         <div className="course-buttons">
         <div className="course-btn-container"><button onClick={()=>this.selectCourse("odissi")}>Learn<br/> Odissi</button></div>
         <div className="course-btn-container"><button onClick={()=>this.selectCourse("kathak")}>Learn<br/> Kathak</button></div>
-        <div className="course-btn-container"><button onClick={()=>this.selectCourse("semiclassical")}>Learn<br/> Semi-Classical</button></div>
+        <div className="course-btn-container"><button onClick={()=>this.selectCourse("creative")}>Learn<br/> Creative Dance</button></div>
         </div>
       </React.Fragment>
     );

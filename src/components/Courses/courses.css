@@ -127,6 +127,10 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  .courses-pic img{
+    width: 80vw;
+  }
   .courses-title{
     font-size: 2.5rem;
   }
@@ -137,7 +141,7 @@
   .present-courses{
     font-size: 1.5rem;
   }
-  
+
   .course-buttons button{
     font-size: 1rem;
     padding: 2px;
@@ -151,6 +155,11 @@
 }
 
 @media screen and (max-width:375px){
+
+  .courses-body{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+  }
   .present-courses{
     font-size: 1.2rem;
   }

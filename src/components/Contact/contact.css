@@ -6,6 +6,7 @@
     background-image: url("./contact.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
 }
 #contact a{
@@ -66,6 +67,9 @@ i{
 
 
 @media screen and (max-width:750px){
+    #contact{
+        grid-template-rows: 1fr 1.5fr;
+    }
     #contact-links div{
         margin: 15px;
     }
