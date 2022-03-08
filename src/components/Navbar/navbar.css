@@ -49,6 +49,11 @@ nav {
 .logo_container {
   display: flex;
   height: 75px;
+  align-items: center;
+}
+
+.logo_container img{
+  height: 75px;
 }
 
 .logo_container:hover{

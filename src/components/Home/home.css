@@ -39,7 +39,7 @@
   }
 
   .home-slider{
-      width: 100vw;
+      width: 99vw;
       padding: 10px;
   }
 
@@ -88,5 +88,21 @@
   .home-content li{
     padding-bottom: 2rem;
     list-style-type: none;
+  }
+
+  @media screen and (max-width:700px){
+    .home-title{
+      font-size: 2rem;
+    }
+    .home-content{
+      font-size: 1rem;
+      font-weight: bold;
+      line-height: 1.5rem;
+      padding-top: 2rem;
+    }
+    .slider-image-front{
+      height: 100%;
+      width: auto;
+    }
   }
   
