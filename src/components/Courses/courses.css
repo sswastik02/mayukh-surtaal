@@ -57,14 +57,15 @@
   padding: 5%;
   font-size: 1.5rem;
   color: white;
-  border: 2px solid white;
+  border: 5px solid white;
   border-radius: 20px;
   transition: all 0.5s ease;
+  font-weight: bold;
 }
 
 .course-text:hover{
   background-color: teal;
-  border: 5px solid white;
+  border: 8px solid white;
   padding: calc(5% - 3px);
 }
 

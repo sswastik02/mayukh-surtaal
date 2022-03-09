@@ -58,7 +58,7 @@ class About extends React.Component {
 
     render() { 
         return <React.Fragment>
-            <a id="about-anchor"></a>
+           
         <div id="about">
             {this.renderAbout()}
         </div>

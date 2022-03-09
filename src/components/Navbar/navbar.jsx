@@ -55,8 +55,8 @@ class Navbar extends React.Component {
 
     renderNavItems(){
         return <React.Fragment> <div className="button_container" ><a href="#home-anchor"><button className="nav_home" onClick={this.toggleDropDown}>Home</button></a></div>
-        <div className="button_container"><a href="#courses-anchor"><button className="nav_courses" onClick={this.toggleDropDown}>Courses</button></a></div>
         <div className="button_container"><a href="#about-anchor"><button className="nav_about" onClick={this.toggleDropDown}>About</button></a></div>
+        <div className="button_container"><a href="#courses-anchor"><button className="nav_courses" onClick={this.toggleDropDown}>Courses</button></a></div>
         <div className="button_container"><a href="#contact-anchor"><button className="nav_contact" onClick={this.toggleDropDown}>Contact</button></a></div>
 
         </React.Fragment>
